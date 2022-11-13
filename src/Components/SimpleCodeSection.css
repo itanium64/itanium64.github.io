@@ -1,0 +1,16 @@
+.simple-code-section {
+    color: rgb(227, 234, 242);
+    background: rgb(17, 27, 39);
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    line-height: 1.5;
+    tab-size: 4;
+    hyphens: none;
+    padding: 1em;
+    margin: 0.5em 0px;
+    overflow: auto;
+}
