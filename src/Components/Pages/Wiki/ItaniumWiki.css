@@ -33,12 +33,25 @@
     margin-top: 24px;
 }
 
+.wiki-main-content .inner-content .padding {
+    padding: 24px;
+    background-clip: padding-box;
+    margin-top: 24px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .wiki-main-content .inner-content p {
     font-size: 18px;
 }
 
 .wiki-main-content .inner-content h1, h2, h3, h4, h5 {
     margin-top: 0;
+}
+
+.wiki-main-content .inner-content h2 a {
+    text-decoration: underline;
+    color: coral;
 }
 
 .wiki-main-content .inner-content .toc {
@@ -69,4 +82,9 @@
 
 .wiki-main-content .inner-content .green {
     color: greenyellow;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
