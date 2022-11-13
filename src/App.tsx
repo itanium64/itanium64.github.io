@@ -1,15 +1,18 @@
+import { Route, Routes } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
+import { Layout } from './Components/Layout';
 import { Navbar } from './Components/Navbar';
 import { Index } from './Components/Pages/Index';
 
 function App() {
 	return (
-		<div className="app">
-			<Navbar />
-
-			<div className='content-flex'>
-				<Index />
-			</div>
-		</div>
+		<BrowserRouter>
+			<Layout>
+				<Routes>
+					<Route index element={<Index />} />
+				</Routes>
+			</Layout>
+		</BrowserRouter>
 	);
 }
 
