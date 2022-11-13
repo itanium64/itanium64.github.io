@@ -9,7 +9,7 @@ function Navbar() {
 
                 <Link to="/">Home</Link>
                 <a href="https://github.com/itanium64">Source</a>
-                <Link to="/wiki/">Wiki</Link>
+                <Link to="/wiki/">Itanium Wiki</Link>
             </div>
         </>
     )
