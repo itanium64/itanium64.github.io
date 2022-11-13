@@ -1,0 +1,19 @@
+.main-content {
+	color: white;
+
+	position: fixed;
+	left: calc(250px + 4vw);
+
+	background-color: rgb(8, 8, 16);
+
+	min-height: 100%;
+	width: calc(calc(100% - 300px) - calc(5.5vw));
+    
+    overflow-y: scroll !important;
+    max-height: 100%;
+}
+
+.main-content .inner-content {
+    padding: 32px;
+
+}
