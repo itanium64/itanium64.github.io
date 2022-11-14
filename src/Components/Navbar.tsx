@@ -5,11 +5,13 @@ function Navbar() {
     return (
         <>
             <div className="navbar">
-                <p className="rosalia-text">Rosalia64</p>
+                <header>
+                    <p className="rosalia-text">Rosalia64</p>
 
-                <Link to="/">Home</Link>
-                <a href="https://github.com/itanium64">Source</a>
-                <Link to="/wiki/">Itanium Wiki</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/wiki/">Itanium Wiki</Link>
+                    <a href="https://github.com/itanium64">Source</a>
+                </header>
             </div>
         </>
     )

@@ -13,17 +13,17 @@ function Index() {
                     <p>Rosalia64 is an attempt at emulating Itanium, more specifically to run IA64 compiled Windows executables.</p>
 
                     <p>
-                        This project mainly started because of my curiosity of <span className="itanium">Itanium</span>, aswell as the disappointing lack
-                        of <span className="itanium">IA64/Itanium</span> emulators currently avaiable, the only one that I found that I've also used as
-                        refrence alot during development is the '<a className="ski" href='https://github.dev/trofi/ski'>ski</a>' emulator created by HP themselves to run Linux
+                        This project mainly started because of my curiosity of <span className="blue">Itanium</span>, aswell as the disappointing lack
+                        of <span className="blue">IA64/Itanium</span> emulators currently avaiable, the only one that I found that I've also used as
+                        refrence alot during development is the '<a className="pink" href='https://github.dev/trofi/ski'>ski</a>' emulator created by HP themselves to run Linux
                         binaries. As a secondary goal I've set myself is to document the architecture as well as I can
-                        so not everyone has to suffer through either finding information about <span className="itanium">Itanium</span>, or having to figure
+                        so not everyone has to suffer through either finding information about <span className="blue">Itanium</span>, or having to figure
                         out what certain things in the Intel documentation actually means, which is why this exists!
                     </p>
 
                     <p>
-                        The <span className="itanium">Itanium</span> wiki is documenting everything that I (Furball) currently understand about <span className="itanium">Itanium</span>,
-                        It covers certain aspects about the <span className="itanium">Itanium</span> architecture, aswell as code examples for things like
+                        The <span className="blue">Itanium</span> wiki is documenting everything that I (Furball) currently understand about <span className="blue">Itanium</span>,
+                        It covers certain aspects about the <span className="blue">Itanium</span> architecture, aswell as code examples for things like
                         Decoding instructions and instruction formats.
                     </p>
 
